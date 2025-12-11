@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>mambuat navbar</title>
+		<style>
+			.navbar {
+				position: flex;
+				width: 100%;
+				color: white;
+				background-color: black;
+				height: 60px;
+				display: flex;
+				top: 0;
+				box-sizing: border-box;
+				z-index: 1000;
+				align-items: center;
+				justify-content: space-between;
+				padding-right: 10px;
+				
+			}
+			
+			.nav-links {
+				list-style: none;
+				display: flex;
+				gap: 25px;
+				
+			}
+			
+			.nav-links li a {
+				color: #f4f4f9;
+				text-decoration: none;
+				font-size: 17px;
+				transition: 0.3s;
+				
+				background-color: grey;
+				color: white;
+				padding: 10px 20px;
+				border-radius: 10%;
+			}
+			
+			.nav-links li a:hover {
+				background-color: white;
+				color: grey;
+			}
+			
+			#content {
+				padding: 80px 50px;
+				background: linear-gradient(135deg, #6a5af9, #5ac8fa);
+				color: white;
+				box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+				border-radius: 0 0px 10px 10px;
+				
+			}
+			
+			.logo {
+				color: black;
+				text-shadow: 0 0 7px #fff, 0 0 21px #ff00de;
+				margin-left: 10px;
+				font-size: 21px;
+				font-weight: bold;
+				background-color: white;
+				border-radius: 50%
+			}
+		</style>
+	<head>
+	<body>
+		<nav class="navbar">
+		<div class="logo">
+			AI
+		</div>
+			<ul class="nav-links">
+				<li><a href="#">Beranda</a></li>
+				<li><a href="../profil_sederhana/index.html">Profil</a></li>
+				<li><a href="#">Kontak</a></li>
+				<li><a href="#">Data Pengunjung</a></li>
+			</ul>
+		</nav>
+		
+		<section id="content">
+			<h1>Selamat Datang!</h1>
+			<p>Semoga menikmati web saya</p>
+	</body>
+</html>
